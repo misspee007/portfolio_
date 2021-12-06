@@ -4,37 +4,17 @@ import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
-class ProjectDetailsModal extends Component {
+
+import home from "./images/home.jpg";
+import cart2 from "./images/cart.png";
+import cart from "./images/cart.jpg";
+import contact from "./images/contact.jpg";
+
+class HtModal extends Component {
   render() {
-    if (this.props.data) {
-      const technologies = this.props.data.technologies;
-      const images = this.props.data.images;
-      var title = this.props.data.title;
-      var description = this.props.data.description;
-      var url = this.props.data.url;
-      if (this.props.data.technologies) {
-        var tech = technologies.map((icons, i) => {
-          return (
-            <li className="list-inline-item mx-3" key={i}>
-              <span>
-                <div className="text-center">
-                  <i className={icons.class} style={{ fontSize: "300%" }}>
-                    <p className="text-center" style={{ fontSize: "30%" }}>
-                      {icons.name}
-                    </p>
-                  </i>
-                </div>
-              </span>
-            </li>
-          );
-        });
-        if (this.props.data.images) {
-          var img = images.map((elem, i) => {
-            return <div key={i} data-src={elem} />;
-          });
-        }
-      }
-    }
+    var img = [home, cart, cart2, contact].map((elem, i) => {
+      return <div data-src={elem} />;
+    });
     return (
       <Modal
         {...this.props}
@@ -78,25 +58,22 @@ class ProjectDetailsModal extends Component {
           </div>
           <div className="col-md-10 mx-auto">
             <h3 style={{ padding: "5px 5px 0 5px" }}>
-              {title}
-              {url ? (
-                <a
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link-href"
-                >
-                  <i
-                    className="fas fa-external-link-alt"
-                    style={{ marginLeft: "10px" }}
-                  ></i>
-                </a>
-              ) : null}
+              HomeTeach
+              <a
+                href="https://staging-hometeach80.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="link-href"
+              >
+                <i
+                  className="fas fa-external-link-alt"
+                  style={{ marginLeft: "10px" }}
+                ></i>
+              </a>
             </h3>
-            <p className="modal-description">{description}</p>
-            <div className="col-md-12 text-center">
-              <ul className="list-inline mx-auto">{tech}</ul>
-            </div>
+            <p className="modal-description">
+            An online educational platform that connects students to tutors. Group project for Zuri training. I worked on the cart, and some web pages.
+            </p>
           </div>
         </div>
       </Modal>
@@ -104,4 +81,4 @@ class ProjectDetailsModal extends Component {
   }
 }
 
-export default ProjectDetailsModal;
+export default HtModal;
