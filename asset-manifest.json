@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio_/static/css/main.8653b40b.chunk.css",
-    "main.js": "/portfolio_/static/js/main.588ed029.chunk.js",
-    "main.js.map": "/portfolio_/static/js/main.588ed029.chunk.js.map",
+    "main.js": "/portfolio_/static/js/main.1673ba6d.chunk.js",
+    "main.js.map": "/portfolio_/static/js/main.1673ba6d.chunk.js.map",
     "runtime-main.js": "/portfolio_/static/js/runtime-main.e7ec6f7e.js",
     "runtime-main.js.map": "/portfolio_/static/js/runtime-main.e7ec6f7e.js.map",
     "static/css/2.9c389199.chunk.css": "/portfolio_/static/css/2.9c389199.chunk.css",
-    "static/js/2.365b8202.chunk.js": "/portfolio_/static/js/2.365b8202.chunk.js",
-    "static/js/2.365b8202.chunk.js.map": "/portfolio_/static/js/2.365b8202.chunk.js.map",
+    "static/js/2.67f50bff.chunk.js": "/portfolio_/static/js/2.67f50bff.chunk.js",
+    "static/js/2.67f50bff.chunk.js.map": "/portfolio_/static/js/2.67f50bff.chunk.js.map",
     "index.html": "/portfolio_/index.html",
-    "precache-manifest.eb72d064ca581d3bf5a2932ca232bc07.js": "/portfolio_/precache-manifest.eb72d064ca581d3bf5a2932ca232bc07.js",
+    "precache-manifest.b1e43fc4427d750aa3a1c899bb777833.js": "/portfolio_/precache-manifest.b1e43fc4427d750aa3a1c899bb777833.js",
     "service-worker.js": "/portfolio_/service-worker.js",
     "static/css/2.9c389199.chunk.css.map": "/portfolio_/static/css/2.9c389199.chunk.css.map",
     "static/css/main.8653b40b.chunk.css.map": "/portfolio_/static/css/main.8653b40b.chunk.css.map",
-    "static/js/2.365b8202.chunk.js.LICENSE.txt": "/portfolio_/static/js/2.365b8202.chunk.js.LICENSE.txt",
+    "static/js/2.67f50bff.chunk.js.LICENSE.txt": "/portfolio_/static/js/2.67f50bff.chunk.js.LICENSE.txt",
     "static/media/cart.jpg": "/portfolio_/static/media/cart.bdbdbf28.jpg",
     "static/media/cart.png": "/portfolio_/static/media/cart.cf449c49.png",
     "static/media/contact.jpg": "/portfolio_/static/media/contact.0346bc32.jpg",
@@ -23,6 +23,7 @@
     "static/media/homeTeach.jpg": "/portfolio_/static/media/homeTeach.6c4d3fd6.jpg",
     "static/media/loss.jpg": "/portfolio_/static/media/loss.b83a03c7.jpg",
     "static/media/myProfile.png": "/portfolio_/static/media/myProfile.ebf01a44.png",
+    "static/media/preciousAbubakarFE.pdf": "/portfolio_/static/media/preciousAbubakarFE.4e94ccb9.pdf",
     "static/media/win.jpg": "/portfolio_/static/media/win.fb6b0cc9.jpg",
     "static/media/zcChess.png": "/portfolio_/static/media/zcChess.3875672c.png",
     "static/media/zcLogo.svg": "/portfolio_/static/media/zcLogo.4456e9a7.svg",
@@ -32,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.e7ec6f7e.js",
     "static/css/2.9c389199.chunk.css",
-    "static/js/2.365b8202.chunk.js",
+    "static/js/2.67f50bff.chunk.js",
     "static/css/main.8653b40b.chunk.css",
-    "static/js/main.588ed029.chunk.js"
+    "static/js/main.1673ba6d.chunk.js"
   ]
 }
