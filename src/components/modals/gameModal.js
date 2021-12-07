@@ -1,18 +1,17 @@
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
 import AwesomeSlider from "react-awesome-slider";
-import AwesomeSliderStyles from "../scss/light-slider.scss";
-import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
+import AwesomeSliderStyles from "../../scss/light-slider.scss";
+import AwesomeSliderStyles2 from "../../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 
-import home from "./images/home.jpg";
-import cart2 from "./images/cart.png";
-import cart from "./images/cart.jpg";
-import contact from "./images/contact.jpg";
+import win from "../images/win.jpg";
+import loss from "../images/loss.jpg";
+import draw from "../images/draw.jpg";
 
-class HtModal extends Component {
+class gameModal extends Component {
   render() {
-    var img = [home, cart, cart2, contact].map((elem, i) => {
+    var img = [win, loss, draw].map((elem, i) => {
       return <div data-src={elem} />;
     });
     return (
@@ -58,9 +57,9 @@ class HtModal extends Component {
           </div>
           <div className="col-md-10 mx-auto">
             <h3 style={{ padding: "5px 5px 0 5px" }}>
-              HomeTeach
+              Rock-Paper-Scissors
               <a
-                href="https://staging-hometeach80.netlify.app/"
+                href="https://misspee007.github.io/rock_paper_scissors/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link-href"
@@ -72,7 +71,7 @@ class HtModal extends Component {
               </a>
             </h3>
             <p className="modal-description">
-            An online educational platform that connects students to tutors. Group project for Zuri training. I worked on the cart, and some web pages.
+            A personal project for study purposes. A game of rock-paper-scissors built with ReactJS.
             </p>
           </div>
         </div>
@@ -81,4 +80,4 @@ class HtModal extends Component {
   }
 }
 
-export default HtModal;
+export default gameModal;

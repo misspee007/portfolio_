@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 
-import ZcModal from "./ZcModal.js";
-import HtModal from "./HtModal.js";
-import GameModal from "./gameModal";
+import ZcModal from "./modals/ZcModal.js";
+import HtModal from "./modals/HtModal.js";
+import GameModal from "./modals/gameModal.js";
+import TimerModal from "./modals/TimerModal";
 
 import zcLogo from "./images/zcLogo.svg";
 import htLogo from "./images/homeTeach.jpg";
 import game from "./images/game.jpg";
+import timer from "./images/timer.jpg";
 
 class Projects extends Component {
   constructor(props) {
@@ -16,7 +18,7 @@ class Projects extends Component {
       zcModalShow: false,
       htModalShow: false,
       gameModalShow: false,
-
+      TimerModalShow: false,
     };
   }
 
@@ -30,10 +32,14 @@ class Projects extends Component {
     let gameModalShow = (data) => {
       this.setState({ gameModalShow: true, deps: data });
     };
+    let timerModalShow = (data) => {
+      this.setState({ timerModalShow: true, deps: data });
+    };
 
     let zcModalClose = () => this.setState({ zcModalShow: false });
     let htModalClose = () => this.setState({ htModalShow: false });
     let gameModalClose = () => this.setState({ gameModalShow: false });
+    let timerModalClose = () => this.setState({ timerModalShow: false });
 
     return (
       <section id="portfolio">
@@ -111,13 +117,44 @@ class Projects extends Component {
                       />
                       <span className="project-date">2021</span>
                       <br />
-                      <p className="project-title-settings mt-3">Rock - Paper - Scissors</p>
+                      <p
+                        className="project-title-settings mt-3"
+                        style={{ fontSize: "1.5rem" }}
+                      >
+                        Rock-paper-scissors
+                      </p>
+                    </div>
+                  </div>
+                </span>
+              </div>
+              <div
+                className="col-sm-12 col-md-6 col-lg-4"
+                style={{ cursor: "pointer" }}
+              >
+                <span className="portfolio-item d-block">
+                  <div className="foto" onClick={() => timerModalShow()}>
+                    <div>
+                      <img
+                        src={timer}
+                        alt="projectImages"
+                        height="230"
+                        width="230"
+                        style={{
+                          marginBottom: 0,
+                          paddingBottom: 0,
+                          position: "relative",
+                        }}
+                      />
+                      <span className="project-date">2021</span>
+                      <br />
+                      <p className="project-title-settings mt-3">
+                        Pomodoro Timer
+                      </p>
                     </div>
                   </div>
                 </span>
               </div>
             </div>
-            
           </div>
           <ZcModal
             show={this.state.zcModalShow}
@@ -132,6 +169,11 @@ class Projects extends Component {
           <GameModal
             show={this.state.gameModalShow}
             onHide={gameModalClose}
+            data={this.state.deps}
+          />
+          <TimerModal
+            show={this.state.timerModalShow}
+            onHide={timerModalClose}
             data={this.state.deps}
           />
         </div>

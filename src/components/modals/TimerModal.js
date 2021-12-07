@@ -1,17 +1,17 @@
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
 import AwesomeSlider from "react-awesome-slider";
-import AwesomeSliderStyles from "../scss/light-slider.scss";
-import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
+import AwesomeSliderStyles from "../../scss/light-slider.scss";
+import AwesomeSliderStyles2 from "../../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 
-import win from "./images/win.jpg";
-import loss from "./images/loss.jpg";
-import draw from "./images/draw.jpg";
+import pic from "../images/timer.jpg";
+import pic2 from "../images/timer2.jpg";
+import pic3 from "../images/timer3.jpg";
 
-class gameModal extends Component {
+class TimerModal extends Component {
   render() {
-    var img = [win, loss, draw].map((elem, i) => {
+    var img = [pic, pic2, pic3].map((elem, i) => {
       return <div data-src={elem} />;
     });
     return (
@@ -57,9 +57,9 @@ class gameModal extends Component {
           </div>
           <div className="col-md-10 mx-auto">
             <h3 style={{ padding: "5px 5px 0 5px" }}>
-              Rock-Paper-Scissors
+              Pomodoro Timer
               <a
-                href="https://misspee007.github.io/rock_paper_scissors/"
+                href="https://misspee007.github.io/timer/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="link-href"
@@ -71,7 +71,7 @@ class gameModal extends Component {
               </a>
             </h3>
             <p className="modal-description">
-            A personal project for study purposes. A game of rock-paper-scissors built with ReactJS.
+            A personal project for study purposes. A countdown timer.
             </p>
           </div>
         </div>
@@ -80,4 +80,4 @@ class gameModal extends Component {
   }
 }
 
-export default gameModal;
+export default TimerModal;
