@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c86c464644b414c5b11408b28edcf5f",
+    "revision": "bd399c57fe854b499a746242d5da9603",
     "url": "/portfolio_/index.html"
   },
   {
-    "revision": "13887b2438cde796ea65",
+    "revision": "3c2a859ec6797460beda",
     "url": "/portfolio_/static/css/2.9c389199.chunk.css"
   },
   {
-    "revision": "82fe06a6d968612ede3f",
+    "revision": "16206e05d3149fd835a2",
     "url": "/portfolio_/static/css/main.8653b40b.chunk.css"
   },
   {
-    "revision": "13887b2438cde796ea65",
-    "url": "/portfolio_/static/js/2.67f50bff.chunk.js"
+    "revision": "3c2a859ec6797460beda",
+    "url": "/portfolio_/static/js/2.1665220c.chunk.js"
   },
   {
     "revision": "efc0bc89bcf702a3aa1127d8ad15fc2e",
-    "url": "/portfolio_/static/js/2.67f50bff.chunk.js.LICENSE.txt"
+    "url": "/portfolio_/static/js/2.1665220c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "82fe06a6d968612ede3f",
-    "url": "/portfolio_/static/js/main.1673ba6d.chunk.js"
+    "revision": "16206e05d3149fd835a2",
+    "url": "/portfolio_/static/js/main.0032ff77.chunk.js"
   },
   {
-    "revision": "1fd79273fcf581e63cfd",
-    "url": "/portfolio_/static/js/runtime-main.e7ec6f7e.js"
+    "revision": "cd85db09cfc2a29353d7",
+    "url": "/portfolio_/static/js/runtime-main.2d91fba8.js"
   },
   {
     "revision": "bdbdbf2872cf23eed2393b0098dc2064",
@@ -66,6 +66,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4e94ccb9ee349b5724cfd7c25569da0a",
     "url": "/portfolio_/static/media/preciousAbubakarFE.4e94ccb9.pdf"
+  },
+  {
+    "revision": "79ae6420503e6248f69b32682890630c",
+    "url": "/portfolio_/static/media/timer.79ae6420.jpg"
+  },
+  {
+    "revision": "019e7b2c080dd35fabe01fdb2f22a663",
+    "url": "/portfolio_/static/media/timer2.019e7b2c.jpg"
+  },
+  {
+    "revision": "fac3e184f75e82e78b624e4d3fbc2459",
+    "url": "/portfolio_/static/media/timer3.fac3e184.jpg"
   },
   {
     "revision": "fb6b0cc91d6d718dc3882285ad6efd43",
