@@ -112,7 +112,7 @@ class Projects extends Component {
                         style={{
                           marginBottom: 0,
                           paddingBottom: 0,
-                          position: "relative",
+                          position: "relative", 
                         }}
                       />
                       <span className="project-date">2021</span>
