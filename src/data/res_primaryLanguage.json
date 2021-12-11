@@ -53,7 +53,7 @@
     },
     {
       "title": "Rock-Paper-Scissors",
-      "startDate": "2018",
+      "startDate": "2021",
       "description": " A personal project for study purposes. A game of rock-paper-scissors built with ReactJS.",
       "images": [
         "/portfolio_/static/media/game.f98f8531.jpg",
@@ -75,7 +75,7 @@
     },
     {
       "title": "Pomodoro Timer",
-      "startDate": "2018",
+      "startDate": "2021",
       "description": " A personal project for study purposes. A game of rock-paper-scissors built with ReactJS.",
       "images": [
         "/portfolio_/static/media/timer.79ae6420.jpg",
@@ -83,6 +83,22 @@
         "/portfolio_/static/media/timer3.fac3e184.jpg"
       ],
       "url": "https://misspee007.github.io/timer/",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        }
+      ]
+    },
+    {
+      "title": "Markdown Editor",
+      "startDate": "2021",
+      "description": " A personal project for study purposes. A game of rock-paper-scissors built with ReactJS.",
+      "images": [
+        "/portfolio_/static/media/image.513fcfd6.jpg",
+        "/portfolio_/static/media/image2.88c5d3af.jpg"
+      ],
+      "url": "https://misspee007.github.io/markdown_editor/",
       "technologies": [
         {
           "class": "devicon-react-original",

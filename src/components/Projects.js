@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
+import a from "./images/portfolio/mdEditor/image.jpg"
+import b from "./images/portfolio/mdEditor/image2.jpg"
+
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -10,6 +13,7 @@ class Projects extends Component {
   }
 
   render() {
+    console.log(a, b);
     let detailsModalShow = (data) => {
       this.setState({ detailsModalShow: true, deps: data });
     };
@@ -57,7 +61,7 @@ class Projects extends Component {
             <span>{sectionName}</span>
           </h1>
           <div className="col-md-12 mx-auto">
-            <div className="row mx-auto">{projects}</div>
+            <div className="row mx-auto justify-content-center">{projects}</div>
           </div>
           <ProjectDetailsModal
             show={this.state.detailsModalShow}
