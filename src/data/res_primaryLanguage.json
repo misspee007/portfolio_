@@ -15,7 +15,7 @@
       "startDate": "2021",
       "description": "An open source messaging platform that will power remote work in the Web3 future and make it feel as good as sitting across the desk from your friends. Zuri chat offers games, music and more functionality via a plugin system. Zuri Chat is powered by diverse technologies including GoLang, Python and NodeJS, but I worked with the ReactJS teams.",
       "images": [
-        "images/portfolio/zurichat/zclogo.svg",
+        "images/portfolio/zurichat/zcLogo.svg",
         "images/portfolio/zurichat/zcChess.png",
         "images/portfolio/zurichat/zcManageDAO.png",
         "images/portfolio/zurichat/zcVirtualWorkspaces.png"
