@@ -1,16 +1,22 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 import jsIcon from "@iconify/icons-logos/javascript";
-import reactIcon from "@iconify/icons-logos/react";
 import profilepic from "./images/myProfile.png";
+import reactIcon from "@iconify/icons-logos/react";
 
 class About extends Component {
   render() {
+    if (this.props.resumeBasicInfo) {
+      var sectionName = this.props.resumeBasicInfo.section_name.about;
+      var hello = this.props.resumeBasicInfo.description_header;
+      var about = this.props.resumeBasicInfo.description;
+    }
+
     return (
       <section id="about">
         <div className="col-md-12">
           <h1 style={{ color: "black" }}>
-            <span>ABOUT ME</span>
+            <span>{sectionName}</span>
           </h1>
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
@@ -64,11 +70,11 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">Hi :) </span>
+                    <span className="wave">{hello} :) </span>
                     <br />
                     <br />
-                    👋I'm Precious Abubakar, Frontend Developer and Writer.  :) I'm
-                    currently working with JavaScript and ReactJs, but I'm also a web 3.0 enthusiast. I write about my journey as a developer <a href="https://preciousabubakar.hashnode.dev/" target="_blank" rel="noopener noreferrer">here.</a>
+                    {about}
+                    <a href="https://preciousabubakar.hashnode.dev/" target="_blank" rel="noopener noreferrer"> here.</a>
                   </div>
                 </div>
               </div>

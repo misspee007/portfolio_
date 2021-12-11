@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import $ from "jquery";
+// import $ from "jquery";
 import "./App.scss";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -9,44 +9,47 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import cv from "./preciousAbubakarFE.pdf";
 
+import sharedData from "./data/portfolio_shared_data.json";
+import resumeData from "./data/res_primaryLanguage.json";
+
 class App extends Component {
   constructor(props) {
     super();
     this.state = {
       foo: "bar",
-      resumeData: {},
-      sharedData: {},
+      resumeData: resumeData,
+      sharedData: sharedData,
     };
   }
 
-  loadResumeFromPath(path) {
-    $.ajax({
-      url: path,
-      dataType: "json",
-      cache: false,
-      success: function (data) {
-        this.setState({ resumeData: data });
-      }.bind(this),
-      error: function (xhr, status, err) {
-        alert(err);
-      },
-    });
-  }
+  // loadResumeFromPath() {
+  //   $.ajax({
+  //     url: "/data/portfolio_shared_data.json",
+  //     dataType: "json",
+  //     cache: false,
+  //     success: function (data) {
+  //       this.setState({ resumeData: data });
+  //     }.bind(this),
+  //     error: function (xhr, status, err) {
+  //       alert(err);
+  //     },
+  //   });
+  // };
 
-  loadSharedData() {
-    $.ajax({
-      url: `portfolio_shared_data.json`,
-      dataType: "json",
-      cache: false,
-      success: function (data) {
-        this.setState({ sharedData: data });
-        document.title = `${this.state.sharedData.basic_info.name}`;
-      }.bind(this),
-      error: function (xhr, status, err) {
-        alert(err);
-      },
-    });
-  }
+  // loadSharedData() {
+  //   $.ajax({
+  //     url: `portfolio_shared_data.json`,
+  //     dataType: "json",
+  //     cache: false,
+  //     success: function ({ data }) {
+  //       this.setState({ sharedData: data });
+  //       document.title = `${this.state.sharedData.basic_info.name}`;
+  //     }.bind(this),
+  //     error: function (xhr, status, err) {
+  //       alert(err);
+  //     },
+  //   });
+  // }
 
   render() {
     return (

@@ -1,0 +1,73 @@
+{
+  "basic_info": {
+    "name": "Precious Abubakar",
+    "titles": [ "Front-end Developer", "Writer"],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/misspee007/",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedIn",
+        "url": "https://www.linkedin.com/in/precious-abubakar/",
+        "class": "fab fa-linkedin"
+      },
+      {
+        "name": "whatsapp",
+        "url": "http://wa.me/2348109343220?text=Hi,%20I'm%20interested%20in%20your%20services",
+        "class": "fab fa-whatsapp"
+      },
+      {
+        "name": "mail",
+        "url": "mailto:preciousdanabubakar@gmail.com",
+        "class": "fa fa-envelope"
+      },
+      {
+        "name": "phone",
+        "url": "tel:+2348109343220",
+        "class": "fa fa-phone"
+      }
+    ],
+    "image": "myProfile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "95"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "70"
+      },
+      {
+        "name": "ReactJs",
+        "class": "devicon-react-plain",
+        "level": "60"
+      },
+      {
+        "name": "Git",
+        "class": "devicon-git-plain",
+        "level": "60"
+      },
+      {
+        "name": "Sass",
+        "class": "devicon-sass-original",
+        "level": "75"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "85"
+      }
+    ]
+  }
+}
