@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 import jsIcon from "@iconify/icons-logos/javascript";
-import profilepic from "./images/myProfile.png";
+import profilepic from "./myProfile.png";
 import reactIcon from "@iconify/icons-logos/react";
 
 class About extends Component {

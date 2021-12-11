@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import ProjectDetailsModal from "./ProjectDetailsModal";
-import a from "./images/portfolio/mdEditor/image.jpg"
-import b from "./images/portfolio/mdEditor/image2.jpg"
 
 class Projects extends Component {
   constructor(props) {
@@ -13,7 +11,6 @@ class Projects extends Component {
   }
 
   render() {
-    console.log(a, b);
     let detailsModalShow = (data) => {
       this.setState({ detailsModalShow: true, deps: data });
     };

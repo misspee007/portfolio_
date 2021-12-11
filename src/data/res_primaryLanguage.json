@@ -15,10 +15,10 @@
       "startDate": "2021",
       "description": "An open source messaging platform that will power remote work in the Web3 future and make it feel as good as sitting across the desk from your friends. Zuri chat offers games, music and more functionality via a plugin system. Zuri Chat is powered by diverse technologies including GoLang, Python and NodeJS, but I worked with the ReactJS teams.",
       "images": [
-        "/portfolio_/static/media/zcLogo.4456e9a7.svg",
-        "/portfolio_/static/media/zcChess.3875672c.png",
-        "/portfolio_/static/media/zcManageDAO.3f361205.png",
-        "/portfolio_/static/media/zcVirtualWorkspaces.8af96d6b.png"
+        "images/portfolio/zurichat/zclogo.svg",
+        "images/portfolio/zurichat/zcChess.png",
+        "images/portfolio/zurichat/zcManageDAO.png",
+        "images/portfolio/zurichat/zcVirtualWorkspaces.png"
       ],  
       "url": "https://www.zuri.chat/",
       "technologies": [
@@ -37,11 +37,11 @@
       "startDate": "2021",
       "description": "An online educational platform that connects students to tutors. Group project for Zuri training. I worked on the cart, and some web pages.",
       "images": [
-        "/portfolio_/static/media/homeTeach.6c4d3fd6.jpg",
-        "/portfolio_/static/media/home.f1a157c9.jpg",
-        "/portfolio_/static/media/cart.bdbdbf28.jpg",
-        "/portfolio_/static/media/cart.cf449c49.png",
-        "/portfolio_/static/media/contact.0346bc32.jpg"
+        "images/portfolio/hometeach/homeTeach.jpg",
+        "images/portfolio/hometeach/home.jpg",
+        "images/portfolio/hometeach/cart.jpg",
+        "images/portfolio/hometeach/cart.png",
+        "images/portfolio/hometeach/contact.jpg"
       ],
       "url": "https://staging-hometeach80.netlify.app/",
       "technologies": [
@@ -56,10 +56,10 @@
       "startDate": "2021",
       "description": " A personal project for study purposes. A game of rock-paper-scissors built with ReactJS.",
       "images": [
-        "/portfolio_/static/media/game.f98f8531.jpg",
-        "/portfolio_/static/media/win.fb6b0cc9.jpg",
-        "/portfolio_/static/media/loss.b83a03c7.jpg",
-        "/portfolio_/static/media/draw.185b1943.jpg"
+        "images/portfolio/rockPaperSci/game.jpg",
+        "images/portfolio/rockPaperSci/win.jpg",
+        "images/portfolio/rockPaperSci/loss.jpg",
+        "images/portfolio/rockPaperSci/draw.jpg"
       ],
       "url": "https://misspee007.github.io/rock_paper_scissors/",
       "technologies": [
@@ -78,9 +78,9 @@
       "startDate": "2021",
       "description": " A personal project for study purposes. A game of rock-paper-scissors built with ReactJS.",
       "images": [
-        "/portfolio_/static/media/timer.79ae6420.jpg",
-        "/portfolio_/static/media/timer2.019e7b2c.jpg",
-        "/portfolio_/static/media/timer3.fac3e184.jpg"
+        "images/portfolio/timer/timer.jpg",
+        "images/portfolio/timer/timer2.jpg",
+        "images/portfolio/timer/timer3.jpg"
       ],
       "url": "https://misspee007.github.io/timer/",
       "technologies": [
@@ -95,8 +95,8 @@
       "startDate": "2021",
       "description": " A personal project for study purposes. A game of rock-paper-scissors built with ReactJS.",
       "images": [
-        "/portfolio_/static/media/image.513fcfd6.jpg",
-        "/portfolio_/static/media/image2.88c5d3af.jpg"
+        "images/portfolio/mdEditor/image.jpg",
+        "images/portfolio/mdEditor/image2.jpg"
       ],
       "url": "https://misspee007.github.io/markdown_editor/",
       "technologies": [
