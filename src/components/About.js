@@ -74,7 +74,7 @@ class About extends Component {
                     <br />
                     <br />
                     {about}
-                    <a href="https://preciousabubakar.hashnode.dev/" target="_blank" rel="noopener noreferrer"> here.</a>
+                    {/* <a href="https://preciousabubakar.hashnode.dev/" target="_blank" rel="noopener noreferrer"> here.</a> */}
                   </div>
                 </div>
               </div>
