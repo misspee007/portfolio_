@@ -67,6 +67,11 @@
         "name": "Bootstrap",
         "class": "devicon-bootstrap-plain",
         "level": "85"
+      },
+      {
+        "name": "WordPress",
+        "class": "devicon-wordpress-plain",
+        "level": "85"
       }
     ]
   }

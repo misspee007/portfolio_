@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "👋I'm Precious Abubakar, Frontend Developer and Writer.  :) I'm currently working with JavaScript and ReactJs, but I'm open to learning new technologies. I'm working on my technical writing but in the meantime, I write about my journey as a developer",
+    "description": "👋I'm Precious Abubakar, Frontend Developer.  :) I'm partial to JavaScript at the moment, but I'm open to learning new technologies. Some of my other interests are developer experience, web3 and writing. I aspire to be a technical writer in the nearest future.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -10,6 +10,43 @@
     }
   },
   "projects": [
+    {
+      "title": "Fashion Store",
+      "startDate": "2022",
+      "description": "An ecommerce store built with Wordpress. Personal project I'm working on to increase my expertise in WordPress.",
+      "images": [
+        "images/portfolio/fashionStore/home.png",
+        "images/portfolio/fashionStore/home2.png",
+        "images/portfolio/fashionStore/home3.png",
+        "images/portfolio/fashionStore/home4.png",
+        "images/portfolio/fashionStore/store.png",
+        "images/portfolio/fashionStore/contact.png"
+      ],  
+      "url": "https://dev-pdania.pantheonsite.io/",
+      "technologies": [
+        {
+          "class": "devicon-wordpress-plain",
+          "name": "WordPress"
+        }
+      ]
+    },
+    {
+      "title": "Website",
+      "startDate": "2022",
+      "description": "A practice project built with Wordpress. Check out the sliding navigation sidebar.",
+      "images": [
+        "images/portfolio/website/1.png",
+        "images/portfolio/website/2.png",
+        "images/portfolio/website/3.png"
+      ],  
+      "url": "https://dev-pdan.pantheonsite.io/",
+      "technologies": [
+        {
+          "class": "devicon-wordpress-plain",
+          "name": "WordPress"
+        }
+      ]
+    },
     {
       "title": "Zuri Chat",
       "startDate": "2021",
