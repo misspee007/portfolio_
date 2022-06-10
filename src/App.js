@@ -61,3 +61,44 @@ class App extends Component {
 }
 
 export default App;
+
+// Data
+// {
+//   "title": "Fashion Store",
+//   "startDate": "2022",
+//   "description": "An ecommerce store built with Wordpress. Personal project.",
+//   "images": [
+//     "images/portfolio/fashionStore/1.jpg",
+//     "images/portfolio/fashionStore/home.png",
+//     "images/portfolio/fashionStore/home2.png",
+//     "images/portfolio/fashionStore/home3.png",
+//     "images/portfolio/fashionStore/home4.png",
+//     "images/portfolio/fashionStore/store.png",
+//     "images/portfolio/fashionStore/contact.png"
+//   ],
+//   "url": "https://dev-pdania.pantheonsite.io/",
+//   "technologies": [
+//     {
+//       "class": "devicon-wordpress-plain",
+//       "name": "WordPress"
+//     }
+//   ]
+// },
+// {
+//   "title": "Website",
+//   "startDate": "2022",
+//   "description": "A simple website built with Wordpress. Check out the sliding navigation sidebar.",
+//   "images": [
+//     "images/portfolio/website/0.jpg",
+//     "images/portfolio/website/1.png",
+//     "images/portfolio/website/2.png",
+//     "images/portfolio/website/3.png"
+//   ],
+//   "url": "https://dev-pdan.pantheonsite.io/",
+//   "technologies": [
+//     {
+//       "class": "devicon-wordpress-plain",
+//       "name": "WordPress"
+//     }
+//   ]
+// },
