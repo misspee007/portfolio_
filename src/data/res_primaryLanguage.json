@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": "👋I'm Precious Abubakar, Frontend Developer.  :) I'm partial to JavaScript at the moment, but I'm open to learning new technologies. Some of my other interests are developer experience, web3 and writing. I aspire to be a technical writer in the nearest future.",
+    "description": " I'm Precious Abubakar, Software Developer. I love to bring concepts to life with code, and I'm constantly learning. Some of my other interests are Open Source contribution and Technical Writing.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -11,9 +11,33 @@
   },
   "projects": [
     {
+      "title": "Classroom",
+      "startDate": "2022",
+      "description": "A learning platform powered by React and Firebase.",
+      "images": [
+        "images/portfolio/classroom/Screenshot_d_1.png",
+        "images/portfolio/classroom/Screenshot_d_2.png",
+        "images/portfolio/classroom/Screenshot_d_4.png",
+        "images/portfolio/classroom/Screenshot_m_2.png",
+        "images/portfolio/classroom/Screenshot_m_3.png",
+        "images/portfolio/classroom/Screenshot_m_4.png"
+      ],
+      "url": "https://dev-pdania.pantheonsite.io/",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-firebase-plain colored",
+          "name": "Firebase"
+        }
+      ]
+    },
+    {
       "title": "Fashion Store",
       "startDate": "2022",
-      "description": "An ecommerce store built with Wordpress. Personal project I'm working on to increase my expertise in WordPress.",
+      "description": "An ecommerce store built with Wordpress. Personal project.",
       "images": [
         "images/portfolio/fashionStore/1.jpg",
         "images/portfolio/fashionStore/home.png",
@@ -22,7 +46,7 @@
         "images/portfolio/fashionStore/home4.png",
         "images/portfolio/fashionStore/store.png",
         "images/portfolio/fashionStore/contact.png"
-      ],  
+      ],
       "url": "https://dev-pdania.pantheonsite.io/",
       "technologies": [
         {
@@ -34,13 +58,13 @@
     {
       "title": "Website",
       "startDate": "2022",
-      "description": "A practice project built with Wordpress. Check out the sliding navigation sidebar.",
+      "description": "A simple website built with Wordpress. Check out the sliding navigation sidebar.",
       "images": [
         "images/portfolio/website/0.jpg",
         "images/portfolio/website/1.png",
         "images/portfolio/website/2.png",
         "images/portfolio/website/3.png"
-      ],  
+      ],
       "url": "https://dev-pdan.pantheonsite.io/",
       "technologies": [
         {
@@ -149,48 +173,33 @@
   "experience": [
     {
       "company": "HNG Internship",
-      "title": "Intern",
-      "years": "08.2021 - 10.2021",
+      "title": "Engineering Intern",
+      "years": "08.2021 - 12.2021",
       "mainTech": [
         "ReactJs"
       ],
       "technologies": [
-        "RxJS",
-        "JavaScript",
-        "Bootstrap",
-        "TailwindCSS",
-        "HTML",
-        "CSS"
-      ]
-    },
-    {
-      "company": "Zuri Chat",
-      "title": "Frontend Developer",
-      "years": "09.2021 - 12.2021",
-      "mainTech": [
-        "ReactJs"
-      ],
-      "technologies": [
-        "RxJS",
+        "ReactJS",
         "JavaScript",
         "Bootstrap",
         "TailwindCSS",
         "Styled components",
-        "Scss",
+        "SCSS",
         "HTML",
         "CSS",
-        "Vue"
+        "Technical Writing",
+        "DX"
       ]
     },
     {
       "company": "Devshelpdevs",
-      "title": "Front-end Developer",
+      "title": "Frontend Developer (Volunteer)",
       "years": "present",
       "mainTech": [
-        "ReactJs"
+        "HTML-CSS-JS"
       ],
       "technologies": [
-        "RxJS",
+        "ReactJS",
         "JavaScript",
         "Bootstrap",
         "TailwindCSS",
@@ -198,6 +207,20 @@
         "Scss",
         "HTML",
         "CSS"
+      ]
+    },
+    {
+      "company": "CHAOSS",
+      "title": "Software Developer (Open Source)",
+      "years": "present",
+      "mainTech": [
+        "NodeJs"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Jest",
+        "CI/CD",
+        "Technical Writing"
       ]
     }
   ]
