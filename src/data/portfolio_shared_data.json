@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "name": "Precious Abubakar",
-    "titles": [ "Front-end Developer", "Writer"],
+    "titles": [ "Software Developer", "Writer", "Open Source Advocate"],
     "social": [
       {
         "name": "github",
@@ -27,6 +27,11 @@
         "name": "phone",
         "url": "tel:+2348109343220",
         "class": "fa fa-phone"
+      },
+      {
+        "name": "blog",
+        "url": "https://preciousabubakar.hashnode.dev",
+        "class": "fa fa-blog"
       }
     ],
     "image": "myProfile.jpg"

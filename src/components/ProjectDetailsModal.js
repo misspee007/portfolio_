@@ -6,7 +6,7 @@ import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 class ProjectDetailsModal extends Component {
   render() {
-    console.log(this.props.data);
+    // console.log(this.props.data);
     if (this.props.data) {
       const technologies = this.props.data.technologies;
       const images = this.props.data.images;
