@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hi",
-    "description": " I'm Precious Abubakar, Software Developer. I love to bring concepts to life with code, and I'm constantly learning. Some of my other interests are Open Source contribution and Technical Writing.",
+    "description": " I'm Precious Abubakar, Software Engineer. I love to bring concepts to life with code, and I'm constantly learning. Some of my other interests are Open Source contribution and Technical Writing.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -148,6 +148,19 @@
         "CSS",
         "Technical Writing",
         "DX"
+      ]
+    },
+    {
+      "company": "KodeCamp",
+      "title": "Engineering Intern (Frontend Team Lead)",
+      "years": "06.2022 - 08.2022",
+      "mainTech": [
+        "ReactJs"
+      ],
+      "technologies": [
+        "ReactJS",
+        "React Bootstrap",
+        "CSS"
       ]
     },
     {
